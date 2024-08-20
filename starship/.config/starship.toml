@@ -1,0 +1,5 @@
+[python]
+pyenv_version_name = false
+
+[kubernetes]
+disabled = false
