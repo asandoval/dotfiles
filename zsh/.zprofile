@@ -1,8 +1,6 @@
 
-
-# Setting PATH for Python 3.12
-# The original version is saved in .zprofile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.12/bin:${PATH}"
+PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 export PATH
 
 eval "$(/opt/homebrew/bin/brew shellenv)"

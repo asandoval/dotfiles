@@ -3,3 +3,6 @@ pyenv_version_name = false
 
 [kubernetes]
 disabled = false
+
+[docker_context]
+disabled = true
